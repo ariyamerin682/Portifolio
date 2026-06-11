@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="name">Riya Merin Abraham</h1>
+        <nav>
+            <ul>
+                <li><a  style="border-color: #6c63ff; color: #cdc9ff;" href="#about">About</a></li>
+                <li><a  style="border-color: #6c63ff; color: #cdc9ff;" href="#skills">Skills</a></li>
+                <li><a  style="border-color: #6c63ff; color: #cdc9ff;" href="#projects">Projects</a></li>
+                <li><a href="#contact" style="border-color: #6c63ff; color: #cdc9ff;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="page-content">
+        <section id="about">
+            <h2 class="det" style="margin-top: 90px;">About Me</h2>
+            <p style="color: aliceblue; font-size: 1.3em;">Hello! I'm Riya Merin Abraham, a passionate web developer with a knack for creating beautiful and functional websites. I love coding and am always eager to learn new technologies.I am a beginner web developer learning HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="skills">
+            <h2 class="det">Skills</h2>
+            <div class="skills-container">
+                <div class = "card"> HTML, CSS, and JavaScript.</div>
+                <div class="card">Python and C.</div>
+                <div class="card">Basic knowledge of C++ and Java.</div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="det">Projects</h2>
+            <p style="margin-bottom: 1rem; color: #cbd5ff; font-weight: 400;">Here are some of my projects:</p>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>⚡CodeRush</h3>
+                    <p>An online multiplayer coding competition platform.</p>
+                    <div style="margin-top: 12px; font-size: 0.8rem; color: #9aa6d9;"><i class="fas fa-code"></i> JavaScript · WebSockets · CSS Grid</div>
+                </div>
+                <div class="project-card">
+                    <h3>🎨Portfolio Website</h3>
+                    <p>Personal portfolio built using HTML, CSS, and JS.</p>
+                    <div style="margin-top: 12px; font-size: 0.8rem; color: #9aa6d9;">HTML5 · CSS3 · JavaScript</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="det">Contact</h2>
+            <p>Email:ariaymerin682@gmail.com<br>Phone: +91 9400686682</p>
+        </section>
+        </div>
+        <footer>
+    <p> @ 2026 Riya Merin Abraham. All rights reserved.</p>
+        </footer>
+         <div class="cursor-glow"></div>
+
+        <script >
+            document.addEventListener('mousemove', (e) => {
+                const glow = document.querySelector('.cursor-glow');
+                requestAnimationFrame(() => {
+                    glow.style.top = (e.clientY - 300) + 'px';
+                    glow.style.left = (e.clientX - 300) + 'px';
+                });
+            });
+        </script>
+</body>
+</html>
