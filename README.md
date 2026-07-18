@@ -2,7 +2,7 @@
 # ✨ Riya Merin Abraham | Personal Portfolio
 
 > A clean, modern, and beginner-friendly personal portfolio website built with HTML, CSS, and JavaScript.
-
+https://ariyamerin682.github.io/Portifolio/
 ## 📋 Table of Contents
 
 - [About The Project](#about-the-project)
